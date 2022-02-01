@@ -11,6 +11,6 @@ Provides essentially 2021 and YTD 2022 Abandoned vehicle reports.
 
 # simple bar chart as the following
 
-ggplot(data= NYPD, aes(y = borough, x= complaint_type)) 
+ggplot(data= NYPD, aes(x = borough)) + geom_bar() 
 
 ![image](https://user-images.githubusercontent.com/14792681/151902839-f40eb8a3-7567-4f2e-be3c-c77857514a4b.png)
