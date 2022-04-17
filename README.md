@@ -4,6 +4,20 @@ Using 311 open data to dig around
 
 Just digging around using https://hwangnyc.medium.com/using-r-to-access-311-service-request-from-nyc-open-data-using-socrata-open-data-api-and-the-83de00327a8c as a guide to start. 
 
+categories of complaints to the NYPD includes: 
+ [1] "Illegal Parking"             "Blocked Driveway"           
+ [3] "Abandoned Vehicle"           "Animal-Abuse"               
+ [5] "Graffiti"                    "Noise - Vehicle"            
+ [7] "Noise - Commercial"          "Noise - Residential"        
+ [9] "Noise - Street/Sidewalk"     "Urinating in Public"        
+[11] "Encampment"                  "Illegal Fireworks"          
+[13] "Panhandling"                 "Non-Emergency Police Matter"
+[15] "Drug Activity"               "Drinking"                   
+[17] "Traffic"                     "Bike/Roller/Skate Chronic"  
+[19] "Squeegee"                    "Noise - House of Worship"   
+[21] "Noise - Park"                "Disorderly Youth"           
+[23] "Posting Advertisement"       "Mass Gathering Complaint" 
+
 # libraries needed 
 
 packages - RSocrata, ggplot2
